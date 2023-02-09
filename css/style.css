@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+:root{
+    --bg-button: #4a4a4a;
+    --bg-body: #000000;
+    --text-white: #FFFFFF;
+    --text-red: #f02022;
+    --text-green: #4ac700;
+    --grey: #4a4a4a;
+}
+
+/* ICONS
+<i class="fa-solid fa-table-cells"></i>
+<i class="fa-solid fa-maximize"></i>
+
+<i class="fa-solid fa-microphone-slash"></i>
+
+<i class="fa-solid fa-microphone"></i>
+<i class="fa-solid fa-angle-up"></i>
+<i class="fa-solid fa-video"></i>
+<i class="fa-solid fa-angle-up"></i>
+
+<i class="fa-solid fa-user-plus"></i>
+<i class="fa-solid fa-user-group"></i>
+<i class="fa-solid fa-chart-column"></i>
+<i class="fa-solid fa-share-from-square"></i>
+<i class="fa-solid fa-angle-up"></i>
+<i class="fa-solid fa-comment"></i>
+<i class="fa-solid fa-record-vinyl"></i>
+<i class="fa-solid fa-table-cells-large"></i>
+<i class="fa-solid fa-ellipsis"></i>
+
+
+<i class="fa-solid fa-caret-left"></i>
+<i class="fa-solid fa-caret-right"></i> 
+*/
