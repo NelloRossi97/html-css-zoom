@@ -190,23 +190,34 @@ footer i{
 }
 
 footer li{
-    padding: 0 10px;
+    padding: 5px 10px;
 }
 .foot-left{
     padding-left: 10px;
 }
 
-
+#share-color{
+    color: var(--text-green);
+}
 .foot-right{
-    background-color: var(--bg-button);
-    height: 100%;
+    background-color: var(--text-red);
+    height: 50%;
     padding: 0 20px;
+    border-radius: 5px;
+    margin-right: 20px;
 }
 
-.foot-right span{
-    color: var(--text-red);
+
+.foot-right:hover {
+    background-color: rgba(255, 0, 0, 0.5);
+    cursor: pointer;
 }
 
+footer li:hover{
+    background-color: #4a4a4a;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 /* utilities */
 
@@ -214,9 +225,6 @@ footer li{
     font-size: 0.7rem;
 }
 
-.align-content{
-    align-content: center;
-}
 
 .text-center{
     text-align: center;
