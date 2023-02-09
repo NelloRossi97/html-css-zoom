@@ -16,6 +16,7 @@
 }
 
 /* ICONS
+<i class="fa-solid fa-circle"></i>
 <i class="fa-solid fa-table-cells"></i>
 <i class="fa-solid fa-maximize"></i>
 
@@ -58,10 +59,44 @@
     align-content: center;
 }
 
-header{
-    height: 2.3rem;
+ul{
+    list-style: none;
 }
 
+a{
+    text-decoration: none;
+    color: var(--text-white);
+}
+li{
+    padding: 5px;
+}
+
+
+/* header */
+header{
+    height: 2.3rem;
+    padding: 5px;
+}
+header a{
+    background-color: var(--bg-button);
+    border-radius: 4px;
+    padding: 0 5px;
+}
+
+.recording i{
+    padding-right: 5px;
+    color: var(--text-red);
+}
+/* main */
+main{
+    height: calc(100vh - 7.3rem);
+}
+
+.cams-container{
+    margin: 0 auto;
+}
+
+/* footer */
 footer{
     background-color: var(--bg-footer);
     height: 5rem;
@@ -71,10 +106,13 @@ footer{
     width: 100%;
 }
 
-.cams-container{
-    margin: 0 auto;
+
+/* utilities */
+
+.small-text{
+    font-size: 0.7rem;
 }
 
-main{
-    height: calc(100vh - 7.3rem);
+.align-content{
+    align-content: center;
 }
