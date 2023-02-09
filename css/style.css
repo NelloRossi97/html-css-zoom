@@ -9,6 +9,7 @@
     --bg-button: #4a4a4a;
     --bg-body: #000000;
     --bg-footer: #222222;
+    --bg-cam-more: #0a70ec;
     --text-white: #FFFFFF;
     --text-red: #f02022;
     --text-green: #4ac700;
@@ -91,21 +92,56 @@ header a{
 main{
     height: calc(100vh - 7.3rem);
 }
-
-.cams-container{
-    margin: 0 auto;
-}
-
 .arrow-left{
     padding-left: 20px;
     font-size: 2rem;
     color: var(--grey);
+    width: 5%;
 }
 .arrow-right{
     padding-right: 20px;
     font-size: 2rem;
     color: var(--grey);
+    width: 5%;
+    flex-direction: row-reverse;
 }
+
+.cams-container{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.single-cam{
+    padding: 5px;
+    position: relative;
+}
+.single-cam img{
+    width: 300px;
+    display: block;
+}
+.names{
+    background-color: var(--bg-button);
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    border-radius: 4px;
+    padding: 2px 10px;
+}
+
+.names i{
+    color: var(--text-red);
+}
+.cam-more{
+    position: absolute;
+    background-color: var(--bg-cam-more);
+    top: 8px;
+    right: 8px;
+    padding: 0 4px;
+    border-radius: 4px;
+}
+
+
+
 /* footer */
 footer{
     background-color: var(--bg-footer);
