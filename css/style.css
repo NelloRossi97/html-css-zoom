@@ -189,8 +189,22 @@ footer i{
     font-size: 2rem;
 }
 
+footer li{
+    padding: 0 10px;
+}
 .foot-left{
     padding-left: 10px;
+}
+
+
+.foot-right{
+    background-color: var(--bg-button);
+    height: 100%;
+    padding: 0 20px;
+}
+
+.foot-right span{
+    color: var(--text-red);
 }
 
 
