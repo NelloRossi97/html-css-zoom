@@ -8,6 +8,7 @@
 :root{
     --bg-button: #4a4a4a;
     --bg-body: #000000;
+    --bg-footer: #222222;
     --text-white: #FFFFFF;
     --text-red: #f02022;
     --text-green: #4ac700;
@@ -39,3 +40,33 @@
 <i class="fa-solid fa-caret-left"></i>
 <i class="fa-solid fa-caret-right"></i> 
 */
+
+.page-container{
+    height: 100vh;
+    background-color: var(--bg-body);
+    color: var(--text-white);
+    position: relative;  
+}
+
+.debug{
+    border: 1px solid white;
+}
+.d-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+header{
+    height: 2.3rem;
+}
+
+footer{
+    background-color: var(--bg-footer);
+    height: 5rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
