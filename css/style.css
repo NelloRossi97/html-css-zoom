@@ -88,6 +88,10 @@ header a{
     padding-right: 5px;
     color: var(--text-red);
 }
+
+header a:hover{
+    background-color: var(--bg-footer);
+}
 /* main */
 main{
     height: calc(100vh - 7.3rem);
