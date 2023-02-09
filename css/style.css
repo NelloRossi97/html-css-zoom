@@ -107,6 +107,16 @@ main{
     flex-direction: row-reverse;
 }
 
+.arrow-left:hover{
+    color: var(--bg-cam-more);
+    cursor: pointer;
+}
+
+.arrow-right:hover{
+    color: var(--bg-cam-more);
+    cursor: pointer;
+}
+
 .cams-container{
     margin: 0 auto;
     width: 80%;
@@ -175,6 +185,14 @@ footer{
     width: 100%;
 }
 
+footer i{
+    font-size: 2rem;
+}
+
+.foot-left{
+    padding-left: 10px;
+}
+
 
 /* utilities */
 
@@ -184,4 +202,12 @@ footer{
 
 .align-content{
     align-content: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
 }
