@@ -70,3 +70,11 @@ footer{
     bottom: 0;
     width: 100%;
 }
+
+.cams-container{
+    margin: 0 auto;
+}
+
+main{
+    height: calc(100vh - 7.3rem);
+}
