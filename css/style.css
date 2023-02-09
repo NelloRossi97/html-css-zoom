@@ -133,6 +133,7 @@ main{
 .names i{
     color: var(--text-red);
 }
+
 .cam-more{
     position: absolute;
     background-color: var(--bg-cam-more);
@@ -140,8 +141,27 @@ main{
     right: 8px;
     padding: 0 4px;
     border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+.single-cam:hover .cam-more{
+    display: block;
 }
 
+/* first cam properties */
+.single-cam:first-child .cam-more{
+    display: block;
+}
+
+#audio-active-first-ch{
+    position: absolute;
+    background-color: var(--bg-cam-more);
+    top: 8px;
+    right: 32px;
+    padding: 0 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
 
 /* footer */
